@@ -11,9 +11,11 @@ import org.junit.runners.Suite;
 import br.com.xy_inc.poi.persistence.repository.AllRepositoryIntegrationTests;
 import br.com.xy_inc.poi.presentation.controller.AllControllerUnitTests;
 import br.com.xy_inc.poi.presentation.dto.AllDTOJsonUnitTests;
+import br.com.xy_inc.poi.util.AllUtilUnitTests;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({AllDTOJsonUnitTests.class,
     AllControllerUnitTests.class, 
-    AllRepositoryIntegrationTests.class})
+    AllRepositoryIntegrationTests.class,
+    AllUtilUnitTests.class})
 public class AllTests {}
