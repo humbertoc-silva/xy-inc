@@ -1,4 +1,4 @@
-# xy-inc
+# - xy-inc -
 Plataforma que fornece toda a inteligêincia ao novo receptor GPS produzido pela empresa XY Inc.
 
 ## Tecnologias adotadas no desenvolvimento da aplicação.
